@@ -1,0 +1,14 @@
+﻿[
+  {
+    "key": "Default/Healthcheck/http/IntervalOfSecond",
+    "value": "20"
+  },
+  {
+    "key": "Default/Healthcheck/http/TimeoutOfSecond",
+    "value": "20"
+  },
+  {
+    "key": "Default/Healthcheck/http/DeregisterCriticalServiceAfterOfSecond",
+    "value": "600"
+  }
+]

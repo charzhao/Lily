@@ -1,0 +1,11 @@
+﻿{
+  "Default" : {
+    "Consul": {
+      "Agent": {
+        "Address": "159.99.250.170",
+        "Port": 8500
+      },
+      "Route": "RoundRobin"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+﻿[
+  {
+    "key": "Default/Zipkin/Address",
+    "value": "http://localhost:9411"
+  }
+]

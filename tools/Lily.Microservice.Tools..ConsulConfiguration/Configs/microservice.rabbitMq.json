@@ -1,0 +1,26 @@
+﻿[
+  {
+    "key": "Default/RabbitMq/EasyNetQ/EasynetqConnectionString",
+    "value": "host=127.0.0.1;UserName=test;Password=test"
+  },
+  {
+    "key": "Default/RabbitMq/EasyNetQ/IspMessageEndPoint",
+    "value": "https://localhost/MessageService/api/Messaging/"
+  },
+  {
+    "key": "Default/RabbitMq/ServiceRuleName",
+    "value": "HW_CONFIG_SERVICE_RULE"
+  },
+  {
+    "key": "Default/RabbitMq/SubscribeAllEvents",
+    "value": true
+  },
+  {
+    "key": "Default/RabbitMq/IspEventStubAssemblyName",
+    "value": ""
+  },
+  {
+    "key": "Default/RabbitMq/OldEventDefaultTypeFullName",
+    "value": "Lily.Microservice.Microparts.EventBus.Features.EventDataOfOld, Lily.Microservice"
+  }
+]

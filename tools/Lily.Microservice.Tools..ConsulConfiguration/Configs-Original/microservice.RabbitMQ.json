@@ -1,0 +1,15 @@
+﻿{
+  "Default": {
+    "RabbitMq": {
+      "MessageConfiguration": {
+        "EasynetqConnectionString": "host=127.0.0.1;UserName=test;Password=test",
+        "IspMessageEndPoint": "https://isp-sh-panel-dev.global.ds.honeywell.com/MessageService/api/Messaging/",
+        "ServiceRuleName": "HW_CONFIG_SERVICE_RULE",
+        "SubscribeAllEvents": true,
+
+        "IspEventStubAssemblyName": "",
+        "IspEventDefaultTypeFullName": "Honeywell.ISP.Services.Shared.Microparts.EventBus.Features.EventDataOfIsp, Honeywell.ISP.Services.Shared"
+      }
+    }
+  }
+}
