@@ -1,0 +1,8 @@
+﻿{
+  "Service": {
+    "Name": "Client",
+    "Port": 0,
+    "Address": "",
+    "Tags": ""
+  }
+}

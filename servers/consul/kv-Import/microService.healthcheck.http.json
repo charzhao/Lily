@@ -1,0 +1,14 @@
+[
+  {
+    "Key": "Default/Healthcheck/http/IntervalOfSecond",
+    "Value": "MjA="
+  },
+  {
+    "Key": "Default/Healthcheck/http/TimeoutOfSecond",
+    "Value": "MjA="
+  },
+  {
+    "Key": "Default/Healthcheck/http/DeregisterCriticalServiceAfterOfSecond",
+    "Value": "NjAw"
+  }
+]

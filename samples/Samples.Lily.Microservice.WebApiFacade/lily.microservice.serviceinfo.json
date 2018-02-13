@@ -1,0 +1,8 @@
+﻿{
+  "Service": {
+    "Name": "WebApiFacade",
+    "Port": 51379,
+    "Address": "",
+    "Tags": ""
+  }
+}

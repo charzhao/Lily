@@ -1,0 +1,26 @@
+[
+  {
+    "Key": "Default/RabbitMq/EasyNetQ/EasynetqConnectionString",
+    "Value": "aG9zdD0xMjcuMC4wLjE7VXNlck5hbWU9dGVzdDtQYXNzd29yZD10ZXN0"
+  },
+  {
+    "Key": "Default/RabbitMq/EasyNetQ/IspMessageEndPoint",
+    "Value": "aHR0cHM6Ly9sb2NhbGhvc3QvTWVzc2FnZVNlcnZpY2UvYXBpL01lc3NhZ2luZy8="
+  },
+  {
+    "Key": "Default/RabbitMq/ServiceRuleName",
+    "Value": "SFdfQ09ORklHX1NFUlZJQ0VfUlVMRQ=="
+  },
+  {
+    "Key": "Default/RabbitMq/SubscribeAllEvents",
+    "Value": "VHJ1ZQ=="
+  },
+  {
+    "Key": "Default/RabbitMq/IspEventStubAssemblyName",
+    "Value": ""
+  },
+  {
+    "Key": "Default/RabbitMq/OldEventDefaultTypeFullName",
+    "Value": "TGlseS5NaWNyb3NlcnZpY2UuTWljcm9wYXJ0cy5FdmVudEJ1cy5GZWF0dXJlcy5FdmVudERhdGFPZk9sZCwgTGlseS5NaWNyb3NlcnZpY2U="
+  }
+]
