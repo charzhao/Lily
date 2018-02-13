@@ -2,7 +2,7 @@
 using System.IO;
 using System.Linq;
 
-namespace Lily.Microservice.Tools.ConsulConfiguration
+namespace Tools.Lily.Microservice.ConsulConfiguration
 {
     // ReSharper disable once ClassNeverInstantiated.Global
     class Program

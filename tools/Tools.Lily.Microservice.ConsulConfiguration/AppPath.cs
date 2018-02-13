@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.Reflection;
 
-namespace Lily.Microservice.Tools.ConsulConfiguration
+namespace Tools.Lily.Microservice.ConsulConfiguration
 {
     // ReSharper disable once ClassNeverInstantiated.Global
     public class AppPath

@@ -1,22 +1,21 @@
 ﻿using System;
-using System.Text;
 using Newtonsoft.Json;
 
-namespace Lily.Microservice.Tools.ConsulConfiguration.ConsulKeyValueFormat
+namespace Tools.Lily.Microservice.ConsulConfiguration.ConsulKeyValueFormat
 {
-    public class KeyValuePairValueConverter : JsonConverter
+    public class KeyValuePairKeyConverter : JsonConverter
     {
         public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
         {
             if (value == null)
                 throw new Exception("value is null");
-            serializer.Serialize(writer,Convert.ToBase64String(Encoding.UTF8.GetBytes(value.ToString())));
+            serializer.Serialize(writer, value);
         }
 
         public override object ReadJson(JsonReader reader, Type objectType, object existingValue,
             JsonSerializer serializer)
         {
-            return serializer.Deserialize(reader, typeof(string));
+            return serializer.Deserialize(reader, typeof(string)).ToString().TrimStart('/');
         }
 
         public override bool CanConvert(Type objectType)

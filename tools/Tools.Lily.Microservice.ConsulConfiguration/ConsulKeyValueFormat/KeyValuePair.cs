@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Lily.Microservice.Tools.ConsulConfiguration.ConsulKeyValueFormat
+namespace Tools.Lily.Microservice.ConsulConfiguration.ConsulKeyValueFormat
 {
     // ReSharper disable once ClassNeverInstantiated.Global
     public class KeyValuePair
