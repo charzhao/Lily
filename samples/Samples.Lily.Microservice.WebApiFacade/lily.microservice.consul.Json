@@ -1,7 +1,7 @@
 ﻿{
   "Consul": {
     "Agent": {
-      "Address": "159.99.250.170",
+      "Address": "127.0.0.1",
       "Port": 8500
     },
     "Route": "LocalDevelop"

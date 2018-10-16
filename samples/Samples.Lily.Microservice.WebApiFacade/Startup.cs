@@ -27,7 +27,9 @@ namespace Samples.Lily.Microservice.WebApiFacade
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMicroservie(micropartServiceCollection =>
+            services
+                .AddConsul()
+                .AddMicroservie(micropartServiceCollection =>
             {
                 micropartServiceCollection
                     .AddCallTreeOfZipkin()

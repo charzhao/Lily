@@ -17,9 +17,10 @@ namespace Samples.Lily.Microservice.ConsoleClient
         {
             MicroserviceBuilder.Init();
             var serviceProvider = new ServiceCollection()
+                .AddConsul()
                 .AddMicroservie(micropartServiceCollection =>
                 {
-                    micropartServiceCollection
+                    micropartServiceCollection        
                         .AddCallTreeOfZipkin()
                         .AddConfigurationCenterOfConsul()
                         .AddServiceCenterOfConsul()
